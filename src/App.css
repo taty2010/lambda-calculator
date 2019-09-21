@@ -20,3 +20,15 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  .numberBttn-Container{
+      width: 300px;
+  }
+
+  .buttons{
+    color: white;
+    border-radius: 50px;
+    width: 20%; 
+    /*height: 60px;*/
+    background: darkblue;
+  }
