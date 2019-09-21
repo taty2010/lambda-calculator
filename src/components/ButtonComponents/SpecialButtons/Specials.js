@@ -1,4 +1,5 @@
 import React from "react";
+import data from "./data"
 
 //import any components needed
 
@@ -6,7 +7,7 @@ import React from "react";
 
 const Specials = () => {
   // STEP 2 - add the imported data to state
-
+  import {numbes} from "../../../data"
   return (
     <div>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
