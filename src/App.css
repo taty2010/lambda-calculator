@@ -21,14 +21,54 @@
     font-size: 5.0rem;
   }
 
+  .App{
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
+  }
+
+  .display{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+      background: #323335;
+      border-radius: 50px;
+      margin: 5%;
+        width: 380px;
+  }
+
+  .leftcalc{
+      display: flex;
+      flex-flow: column;
+  }
+
+  .rightcalc{
+      display: flex;
+  }
+
   .numberBttn-Container{
       width: 300px;
   }
 
+  .numbersBttn{
+      background: #094377;
+  }
+
+  .specialBttn{
+    background: #0b5d9b;
+  }
+
+  .operatorBttn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background: #007291;
+  }
+
   .buttons{
+    width: 84px;
+    height: 84px;
     color: white;
     border-radius: 50px;
-    width: 20%; 
-    /*height: 60px;*/
-    background: darkblue;
   }
