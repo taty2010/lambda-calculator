@@ -2,8 +2,9 @@ import React from "react";
 
 
 const OperatorButton = (props) => {
+  console.log(props.clickOperator)
   return (
-    <button className= "operatorBttn buttons">
+    <button onClick={props.clickFunc} value={props.operator} className= "operatorBttn buttons">
       {props.buttonData}
       {/* Display a button element rendering the data being passed down from the parent container on props */}
     </button>

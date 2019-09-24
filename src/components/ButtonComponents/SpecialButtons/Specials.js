@@ -15,7 +15,7 @@ const Specials = (props) => {
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
        {specials.map((buttonDataObject, i) => (
-    <SpecialButton key={i} buttonData={buttonDataObject} />
+    <SpecialButton key={i} specials={buttonDataObject} buttonData={buttonDataObject} clickFunc={clickFunc}/>
  ))}
     </div>
   );
